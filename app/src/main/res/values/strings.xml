@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">BTS-SIO</string>
-    <string name="TextView">Bienvenu sur l application BTS SIO</string>
     <string name="slam3">SLAM3</string>
     <string name="slam4">SLAM4</string>
-    <string name="si2">si2</string>
-    <string name="si1">si1</string>
+    <string name="si2">SI2</string>
+    <string name="si1">SI1</string>
+    <string name="si3">SI3</string>
+    <string name="si5">SI5</string>
+    <string name="si4">SI4</string>
+    <string name="si6">SI6</string>
+    <string name="slam1">SLAM1</string>
+    <string name="slam2">SLAM2</string>
+    <string name="bienvenu_sur_l_application_bts_sio">Bienvenu sur l\'application BTS SIO!</string>
+    <string name="si7">SI7</string>
+    <string name="slam5">SLAM5</string>
 </resources>

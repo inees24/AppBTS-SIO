@@ -15,6 +15,36 @@
             android:orderInCategory="100"
             app:showAsAction="never"
             android:title="@string/si2" />
+
+        <item android:id="@+id/menu_SI3"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="@string/si3" />
+
+        <item android:id="@+id/menu_SI4"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="@string/si4" />
+
+        <item android:id="@+id/menu_SI5"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="@string/si5" />
+
+        <item android:id="@+id/menu_SI6"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="@string/si6" />
+
+        <item android:id="@+id/menu_SLAM1"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="@string/slam1" />
+
+        <item android:id="@+id/menu_SLAM2"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="@string/slam2" />
     </menu>
 
 </item>
@@ -23,6 +53,11 @@
         android:title="Deuxième année">
 
     <menu android:id="@+id/sous_menu2">
+        <item android:id="@+id/menu_SI7"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="@string/si7" />
+
         <item android:id="@+id/menu_SLAM3"
             android:orderInCategory="100"
             app:showAsAction="never"
@@ -32,6 +67,11 @@
             android:orderInCategory="100"
             app:showAsAction="never"
             android:title="@string/slam4" />
+
+        <item android:id="@+id/menu_SLAM5"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="@string/slam5" />
 
     </menu>
 </item>

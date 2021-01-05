@@ -34,11 +34,35 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_SI2:
                 Toast.makeText(this, "menu SI2 sélectionné", Toast.LENGTH_LONG).show();
                 return true;
+            case R.id.menu_SI3:
+                Toast.makeText(this, "menu SI3 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.menu_SI4:
+                Toast.makeText(this, "menu SI4 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.menu_SI5:
+                Toast.makeText(this, "menu SI5 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.menu_SI6:
+                Toast.makeText(this, "menu SI6 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.menu_SLAM1:
+                Toast.makeText(this, "menu SLAM1 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.menu_SLAM2:
+                Toast.makeText(this, "menu SLAM2 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.menu_SI7:
+                Toast.makeText(this, "menu SI7 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
             case R.id.menu_SLAM3:
                 Toast.makeText(this, "menu SLAM3 sélectionné", Toast.LENGTH_LONG).show();
                 return true;
             case R.id.menu_SLAM4:
                 Toast.makeText(this, "menu SLAM4 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.menu_SLAM5:
+                Toast.makeText(this, "menu SLAM5 sélectionné", Toast.LENGTH_LONG).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
