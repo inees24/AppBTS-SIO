@@ -28,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch(item.getItemId() ) {
+            case R.id.menu_SI1:
+                Toast.makeText(this, "menu SI1 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.menu_SI2:
+                Toast.makeText(this, "menu SI2 sélectionné", Toast.LENGTH_LONG).show();
+                return true;
             case R.id.menu_SLAM3:
                 Toast.makeText(this, "menu SLAM3 sélectionné", Toast.LENGTH_LONG).show();
                 return true;

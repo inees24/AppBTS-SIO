@@ -3,4 +3,6 @@
     <string name="TextView">Bienvenu sur l application BTS SIO</string>
     <string name="slam3">SLAM3</string>
     <string name="slam4">SLAM4</string>
+    <string name="si2">si2</string>
+    <string name="si1">si1</string>
 </resources>
