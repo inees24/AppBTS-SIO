@@ -10,6 +10,6 @@
         android:layout_width="277dp"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Bienvenue sur l'application BTS SIO!" />
+        android:text="Bienvenu sur l'application BTS SIO!" />
 
 </LinearLayout>
