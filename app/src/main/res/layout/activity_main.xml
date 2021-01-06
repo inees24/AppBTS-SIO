@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/activity_main_greeting_txt"
-        android:layout_width="277dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="@string/bienvenu_sur_l_application_bts_sio" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#0000BCD4"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="530dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="541dp"
+            app:cardBackgroundColor="#B200BCD4">
+
+            <TextView
+                android:id="@+id/activity_main_greeting_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/bienvenue_sur_l_application_bts_sio_vous_y_trouverez_des_cours_ainsi_que_des_exercices" />
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>
+
